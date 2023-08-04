@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Victor+Mono:wght@400;700&display=swap');
+
+:root{
+    --primary:#F2C94C 
+}
+#text-field{
+    width: 80%;
+    height: 10rem;
+    display: block;
+    margin: 1rem 8rem;
+    
+}
+
+#text-field-translated{
+    width: 80%;
+    height: 10rem;
+    display: block;
+    margin: 1rem 8rem 0rem 8rem; 
+}
+
+button{
+    background-color: var(--primary);
+    padding: 1rem;
+    margin-left: 8rem;
+}
+
+p{
+    margin: 1rem 8rem; 
+    width: 80%;
+}
+#header-container{
+    max-width:inherit;
+    height: 10rem;
+    background-color: var(--primary);
+}
+
+#footer-container{
+    max-width:inherit;
+    background-color: var(--primary);
+    text-align: center;
+    height: 8rem;
+}
+
+#footer-container #heading{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#header-container #heading{
+    text-align: center;
+    padding: 3rem 0rem;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+body{
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Victor Mono', monospace;
+}
